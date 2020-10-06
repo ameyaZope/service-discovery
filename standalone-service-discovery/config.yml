@@ -1,0 +1,15 @@
+logging:
+  level: INFO
+  loggers:
+    com.ameya: DEBUG
+
+swagger:
+  resourcePackage: com.ameya.servicediscovery.resources
+  title: Service Discovery
+  description: A high availability service discovery
+  schemes:
+    - http
+    - https
+
+host: "localhost"
+port: 2182
